@@ -6,13 +6,13 @@ namespace StcaksAndQueues
     {
         static void Main(string[] args)
         {
-            Stacks linkedListStack = new Stacks(); // creating object for a class
-            linkedListStack.Push(70);    // adding values to the stack
-            linkedListStack.Push(30);
-            linkedListStack.Push(56);
+            Queue linkedListStack = new Queue(); // creating object for a class
+
+           
+            linkedListStack.Enqueue(56);    // adding values to the Queue
+            linkedListStack.Enqueue(30);
+            linkedListStack.Enqueue(70);
             linkedListStack.Display();
-            linkedListStack.Peek();
-            linkedListStack.Pop();
         }
     }
 }
